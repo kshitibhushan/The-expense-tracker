@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The expenses</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>The expense tracker</h1>
+        <input type="text" id="item" placeholder="Name of the item">
+        <input type="number" id="price" placeholder="price">
+        <button id="add" onclick="newitem()">Add</button>
+    </div>
+    <hr color="black">
+    <div class="container">
+        <ul id="myul">
+
+        </ul>
+        <hr>
+        <h3>The total expense is: ------<span id="total"></span></h3>
+    </div>
+
+
+</body>
+<script src="expense.js"></script>
+
+</html>
